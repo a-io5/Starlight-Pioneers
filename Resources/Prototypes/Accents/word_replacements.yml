@@ -671,3 +671,14 @@
     accent-skeleton-words-7: accent-skeleton-words-replace-7
     accent-skeleton-words-8: accent-skeleton-words-replace-8
     accent-skeleton-words-9: accent-skeleton-words-replace-9
+
+- type: accent
+  id: peep
+  wordReplacements:
+    accent-peep-words-1: accent-peep-words-replace-1
+    accent-peep-words-2: accent-peep-words-replace-2
+    accent-peep-words-3: accent-peep-words-replace-3
+    accent-peep-words-4: accent-peep-words-replace-4
+    accent-peep-words-5: accent-peep-words-replace-5
+    accent-peep-words-6: accent-peep-words-replace-6
+    accent-peep-words-7: accent-peep-words-replace-7

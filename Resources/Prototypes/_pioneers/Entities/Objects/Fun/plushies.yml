@@ -1,0 +1,152 @@
+- type: entity
+  parent: BaseResomiPlushie
+  id: PlushiePeep
+  name: peep plushie
+  description: A soft resomi plushie of Peep.
+  components:
+  - type: Item
+    size: Small
+    sprite: _pioneers/Objects/Fun/Plushies/peep_plushie.rsi
+  - type: Sprite
+    sprite: _pioneers/Objects/Fun/Plushies/peep_plushie.rsi
+    layers:
+      - state: icon
+  - type: ItemToggle
+    onUse: false
+    verbToggleOn: plushie-voicebox-activate
+    verbToggleOff: plushie-voicebox-deactivate
+  - type: ComponentToggler
+    components:
+      - type: DatasetVocalizer
+        dataset: PlushiesPeep
+      - type: TextToSpeech
+        voice: bettylabomba
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: PeepJuice
+        Quantity: 30
+
+- type: entity
+  parent: BaseResomiPlushie
+  id: PlushieRu
+  name: ru plushie
+  description: A soft resomi plushie of Ru.
+  components:
+  - type: Item
+    size: Small
+    sprite: _pioneers/Objects/Fun/Plushies/ru_plushie.rsi
+  - type: Sprite
+    sprite: _pioneers/Objects/Fun/Plushies/ru_plushie.rsi
+    layers:
+      - state: icon
+  - type: ItemToggle
+    onUse: false
+    verbToggleOn: plushie-voicebox-activate
+    verbToggleOff: plushie-voicebox-deactivate
+  - type: ComponentToggler
+    components:
+      - type: DatasetVocalizer
+        dataset: PlushiesRu
+      - type: TextToSpeech
+        voice: bettylabomba
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: ResomiBlood
+        Quantity: 5
+      - ReagentId: Coffee
+        Quantity: 5
+
+- type: entity
+  parent: BaseResomiPlushie
+  id: PlushieGogumi
+  name: gogumi plushie
+  description: A soft resomi plushie of Gogumi.
+  components:
+  - type: Item
+    size: Small
+    sprite: _pioneers/Objects/Fun/Plushies/gogumi_plushie.rsi
+  - type: Sprite
+    sprite: _pioneers/Objects/Fun/Plushies/gogumi_plushie.rsi
+    layers:
+      - state: icon
+  - type: ItemToggle
+    onUse: false
+    verbToggleOn: plushie-voicebox-activate
+    verbToggleOff: plushie-voicebox-deactivate
+  - type: ComponentToggler
+    components:
+      - type: DatasetVocalizer
+        dataset: PlushiesGogumi
+      - type: TextToSpeech
+        voice: bettylabomba
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: ResomiBlood
+        Quantity: 5
+      - ReagentId: Plasma
+        Quantity: 5
+
+- type: entity
+  parent: BaseResomiPlushie
+  id: PlushieQikk
+  name: qikk plushie
+  description: A soft resomi plushie of Qikk.
+  components:
+  - type: Item
+    size: Small
+    sprite: _pioneers/Objects/Fun/Plushies/qikk_plushie.rsi
+  - type: Sprite
+    sprite: _pioneers/Objects/Fun/Plushies/qikk_plushie.rsi
+    layers:
+      - state: icon
+  - type: ItemToggle
+    onUse: false
+    verbToggleOn: plushie-voicebox-activate
+    verbToggleOff: plushie-voicebox-deactivate
+  - type: ComponentToggler
+    components:
+      - type: DatasetVocalizer
+        dataset: PlushiesQikk
+      - type: TextToSpeech
+        voice: bettylabomba
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: ResomiBlood
+        Quantity: 5
+      - ReagentId: WeldingFuel
+        Quantity: 5
+
+- type: entity
+  parent: BaseResomiPlushie
+  id: PlushieMimi
+  name: mimi plushie
+  description: A soft resomi plushie of Mimi.
+  components:
+  - type: Item
+    size: Small
+    sprite: _pioneers/Objects/Fun/Plushies/mimi_plushie.rsi
+  - type: Sprite
+    sprite: _pioneers/Objects/Fun/Plushies/mimi_plushie.rsi
+    layers:
+      - state: icon
+  - type: ItemToggle
+    onUse: false
+    verbToggleOn: plushie-voicebox-activate
+    verbToggleOff: plushie-voicebox-deactivate
+  - type: ComponentToggler
+    components:
+      - type: DatasetVocalizer
+        dataset: PlushiesMimi
+      - type: TextToSpeech
+        voice: bettylabomba
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: ResomiBlood
+        Quantity: 5
+      - ReagentId: Absinthe
+        Quantity: 5

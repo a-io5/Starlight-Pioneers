@@ -1,0 +1,16 @@
+- type: reagent
+  id: PeepJuice
+  parent: BaseJuice
+  name: reagent-name-peep-juice
+  group: Toxins
+  desc: reagent-desc-peep-juice
+  physicalDesc: reagent-physical-desc-vibrant
+  flavor: peep
+  color: "#ffd700"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:ModifyStatusEffect
+        effectProto: StatusEffectPeep
+        time: 10
+        type: Add

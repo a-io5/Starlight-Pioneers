@@ -1,0 +1,10 @@
+- type: reaction
+  id: CreatePeepJuice
+  impact: Low
+  reactants:
+    ResomiBlood:
+      amount: 1
+    JuiceThatMakesYouWeh:
+      amount: 1
+  products:
+    PeepJuice: 1

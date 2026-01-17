@@ -1,0 +1,29 @@
+- type: localizedDataset
+  id: PlushiesPeep
+  values:
+    prefix: plushie-peep-
+    count: 7
+
+- type: localizedDataset
+  id: PlushiesRu
+  values:
+    prefix: plushie-ru-
+    count: 7
+
+- type: localizedDataset
+  id: PlushiesGogumi
+  values:
+    prefix: plushie-gogumi-
+    count: 7
+
+- type: localizedDataset
+  id: PlushiesQikk
+  values:
+    prefix: plushie-qikk-
+    count: 2
+
+- type: localizedDataset
+  id: PlushiesMimi
+  values:
+    prefix: plushie-mimi-
+    count: 8
